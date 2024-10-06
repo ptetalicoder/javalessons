@@ -1,3 +1,5 @@
+package week1;
+
 import pack.Protected;
 
 public class SubClassofProtected  extends Protected {

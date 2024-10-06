@@ -1,5 +1,7 @@
+package week1;
+
 public class References {
-    // References are variables that point to an object in memeory
+    // week1.References are variables that point to an object in memeory
 
     public static void main(String[] args) {
         // if the reference exists the object will not be removed from memory

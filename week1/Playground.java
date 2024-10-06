@@ -1,3 +1,5 @@
+package week1;
+
 public class Playground {
     public static void main(String[] args) {
         String personName = "Billy";

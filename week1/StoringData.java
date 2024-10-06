@@ -1,3 +1,5 @@
+package week1;
+
 public class StoringData {
     // Anytiome you need to store a collection of data Arrays are bult in Class that can be used
 
