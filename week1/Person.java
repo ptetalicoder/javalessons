@@ -1,10 +1,12 @@
+package week1;
+
 public class Person {
-    // this class is used as a blueprint "Person" data in the application
+    // this class is used as a blueprint "week1.Person" data in the application
     String name;
     int age;
 
     //    public static void main(String[] args) {
-//        Person myPerson = new Person();// constructor method
+//        week1.Person myPerson = new week1.Person();// constructor method
     //new indicates we are making an object
 //        System.out.println(myPerson.name);
 //        System.out.println(myPerson.age);
@@ -37,11 +39,11 @@ public class Person {
 
     }
 
-//        Person person = new Person();
+//        week1.Person person = new week1.Person();
 //        person.name = "Sally";
 //        person.age = 35;
 //
-//        Person personTwo = new Person();
+//        week1.Person personTwo = new week1.Person();
 //        personTwo.name = "Billy";
 //        personTwo.age = 35;
 //

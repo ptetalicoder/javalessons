@@ -1,4 +1,4 @@
-//import pack.Default;
+package week1;//import pack.Default;
 import pack.Private;
 import pack.Protected;
 import pack.Public;
