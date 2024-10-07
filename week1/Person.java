@@ -24,8 +24,17 @@ public class Person {
     void greeting(){
         System.out.println("Hello! My name is " + this.name + " and I am " + this.age + " years old");
     }
+
     void respondToGreeting(){
         System.out.println("Nice to meet you!, my name is " + this.name + " I am " + this.age);
+    }
+
+    void countNumbers(int... numbers){
+        for(int number : numbers){
+            System.out.println(number);
+            // varargs - one or more arguments are going to be provided to the method
+            // must be the last parameter defined in method signature
+        }
     }
 
     public static void main(String[] args) {
@@ -35,6 +44,8 @@ public class Person {
 
         personOne.greeting();
         personTwo.respondToGreeting();
+
+        personOne.countNumbers(1,2,3,4,5,6,7);
 
 
     }
